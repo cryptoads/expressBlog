@@ -15,9 +15,9 @@
 
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5 sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Chris's Fake Blog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,22 +30,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/new/form">New Post</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/fakeBlog/about">About Me</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-4">Welcome to the Blog</h1>
-            <p class="lead">There are many like it, but this one is mine.</p>
-        </div>
-    </div>
-    <div id="posts" class="container list-group">
+
         {{{body}}}
-    </div>
+    
 
         {{> modal}}
 
+<footer class='fixed-bottom text-center bg-dark text-light'>copyright 2018</footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>

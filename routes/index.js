@@ -82,4 +82,8 @@ router.post('/new/form', (req, res)=>{
         });
 });
 
+router.get('/fakeBlog/about/', (req, res)=>{
+    res.render('about');
+})
+
 module.exports = router;

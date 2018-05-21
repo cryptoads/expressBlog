@@ -381,5 +381,21 @@
 		"last_name": "michels",
 		"title": "testing",
 		"content": "The blog functionality "
+	},
+	"49": {
+		"id": 49,
+		"date": "5/2/2018",
+		"first_name": "CHristo",
+		"last_name": "colombo",
+		"title": "testing",
+		"content": "a fake blog post to test the hbs"
+	},
+	"50": {
+		"id": 50,
+		"date": "5/2/2018",
+		"first_name": "Hop",
+		"last_name": "Along",
+		"title": "How Simple",
+		"content": "What a great deal"
 	}
 }
